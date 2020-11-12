@@ -17,8 +17,13 @@
     "url": "https://github.com/mrocha98/stream-adventure/issues"
   },
   "homepage": "https://github.com/mrocha98/stream-adventure#readme",
+  "scripts": {
+    "lint": "standard --fix"
+  },
   "dependencies": {
     "through2": "^4.0.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "standard": "^16.0.2"
+  }
 }
