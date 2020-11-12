@@ -1,7 +1,7 @@
 const { Writable } = require('stream')
 
 class WritableStream extends Writable {
-  _write(chunk, enconding, cb) {
+  _write (chunk, enconding, cb) {
     console.log(`writing: ${chunk.toString()}`)
     cb()
   }

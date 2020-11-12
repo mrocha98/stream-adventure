@@ -1,7 +1,7 @@
 const { Readable } = require('stream')
 
 class ReadableStream extends Readable {
-  _read(size) {}
+  _read (size) {}
 }
 
 const stream = new ReadableStream()
